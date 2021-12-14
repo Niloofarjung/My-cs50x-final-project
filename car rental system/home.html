@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet"href="./home.css"/>
+    <link rel="stylesheet"href="./style.css"/>
+    <link rel="stylesheet"herf="./flexboxgrid.css"/>
+    <title>Car Rental Site</title>
+</head>
+<body>
+    <header>
+        <nav>
+          
+            <div class="nav-right">
+                <a href="panel.html"><i class="far fa-user"></i></a>
+                <a href=""><i class="fas fa-car"></i></a>
+                <a href=""><i class="fas fa-home"></i></a>
+                <a href=""><i class="fas fa-search"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fas fa-user"></i>
+                    <a href="login.html">Register / Login</a>
+                </div>
+            </div>
+
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./image/car01_800x255.jpg" alt="">
+                    <span>RENT CAR!</span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./image/car02_800x255.jpg" alt="">
+                    <span>WITH PERFECT PRICE!</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./image/car03_800x255.jpg" alt="">
+                    <span>RIGHT NOW!</span>
+                </div>
+
+            </div>
+            <div class="buttons">
+                <i onclick ="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick ="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick ="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="home-page-car-section">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card">
+                        <div class="img-sec">
+                            <img src="./image/car2.png" alt="Car nuber 1 : 100$" style="width: 800px; height: 300px; margin: 0px;"/>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+                        <div class="title">
+                            car name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">Rent Price $</span>
+                              </div>
+                              <div class="left">
+                                <div class="extend-btn">
+                                  <a class="b-text" href="">Like</a>
+                                  <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Rent</a>
+                                    <a class="b-icon" href=""><i class="fas fa-car"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card">
+                        <div class="img-sec">
+                            <img src="./image/car6.jpg" alt="Car nuber 1 : 100$" style="width: 800px; height: 300px; margin: 0px;"/>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+                        <div class="title">
+                            car name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">Rent Price $</span>
+                              </div>
+                              <div class="left">
+                                <div class="extend-btn">
+                                  <a class="b-text" href="">Like</a>
+                                  <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Rent</a>
+                                    <a class="b-icon" href=""><i class="fas fa-car"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card">
+                        <div class="img-sec">
+                            <img src="./image/car4.jpg" alt="Car nuber 1 : 100$" style="width: 800px; height: 300px; margin: 0px;"/>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+                        <div class="title">
+                            car name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">Rent Price $</span>
+                              </div>
+                              <div class="left">
+                                <div class="extend-btn">
+                                  <a class="b-text" href="">Like</a>
+                                  <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Rent</a>
+                                    <a class="b-icon" href=""><i class="fas fa-car"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="card">
+                        <div class="img-sec">
+                            <img src="./image/car5.jpg" alt="Car nuber 1 : 100$" style="width: 800px; height: 300px; margin: 0px;"/>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+                        <div class="title">
+                            car name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">Rent Price $</span>
+                              </div>
+                              <div class="left">
+                                <div class="extend-btn">
+                                  <a class="b-text" href="">Like</a>
+                                  <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Rent</a>
+                                    <a class="b-icon" href=""><i class="fas fa-car"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+              <div class="right">
+                <div class="title">
+                  About Me :
+                </div>
+                <div class="des">
+                   This is my cs50x final project
+                  
+                </div>
+                <div class="des">
+                    niloofarjung@gmail.com
+                 </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="left">
+                <div class="title">
+                  follow my social medias
+                </div>
+                <div class="socials">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                  <a href=""><i class="fab fa-telegram-plane"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+             2021© Copy Right
+          </div>
+
+
+
+
+    </footer>
+<script src = "./js/main.js"></script>
+</body>
+</html>

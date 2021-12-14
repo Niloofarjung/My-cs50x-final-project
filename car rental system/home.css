@@ -1,0 +1,238 @@
+/*navigation section */
+header{
+    font-size: 1em;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;       
+}
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+
+}
+header nav .nav-right a{
+    color: darkviolet;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1em;
+
+}
+header nav .nav-left{
+
+}
+header nav .nav-left .register-login-btn{
+    border: 1px solid rgb(226, 14, 216);
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header nav .nav-left .register-login-btn i{
+    color: darkviolet;
+    margin: 7px;
+}
+header nav .nav-left .register-login-btn a{
+    color: rgb(241, 9, 164);
+    margin: 0px 10px;
+    font-size: 1.5em;
+   
+}
+/*slider section */
+.slider{
+    position: relative;
+    font-size: 1em;
+
+}
+.slider .slides{
+
+}
+.slider .slides .item{
+    position: relative;
+    display: none;
+
+}
+.slider .slides .item img{
+    width: 100%;
+
+}
+.slider .slides .item span{
+    position: absolute;
+    color: rgba(235, 11, 11, 0.918);
+    left: 10%;
+    top: 10%;
+    font-size: 1.5em;
+
+}
+.slider .slides .active{
+    display: block;
+
+} 
+.slider .buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+
+}
+.slider .buttons i{
+    color: rgba(24, 89, 209, 0.582) ;
+    margin-right: 5px;
+    cursor: pointer;
+    
+
+}
+.slider .buttons i:hover{
+    color: rgba(255, 0, 200, .4);
+    
+    
+
+}
+
+/* car section */
+
+.home-page-car-section{
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+
+.home-page-car-section .card{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.719);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.card .img-sec{
+    position: relative;
+}
+.card.img-sec img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.card .img-sec .stars{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #f1c40f;
+    cursor: pointer;
+}
+
+
+.card .title{
+    color: #333;
+    margin: 15px;
+    font-size: 2em;
+}
+.card .buttons{
+    color: #333;
+    margin: 15px;
+    font-size: 1.3em;
+    
+}
+.card .buttons .right .price{
+    color: #666;
+    font-weight: bold;
+}
+
+.card .buttons .left{
+    display: flex;
+}
+
+.card .buttons .left .extend-btn{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f80101;
+    color: white;
+    width: 40px;
+    padding : 8px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .75s;
+
+}
+
+.card .buttons .left .extend-btn:hover{
+    width: 100px;
+}
+
+.card .buttons .left .extend-btn:hover .b-text{
+    display: block;
+}
+
+.card .buttons .left .extend-btn .b-text{
+    display: none;
+    color: white;
+}
+
+.card .buttons .left .extend-btn  .b-icon{
+    color: white;
+    padding-top: 3px;
+}
+
+
+/* footer  */
+footer{
+    background-color: rgb(241, 9, 164);
+    font-size: 1.3em;
+}
+
+footer .right{
+    padding: 40px;
+}
+
+footer .right .title{
+    padding: 1px 0px;
+    color: white;
+    font-size: 1.5em;
+}
+
+footer .right  .des{
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+footer .left{
+    padding: 40px;
+}
+
+footer .left .title{
+    padding: 2px 0px;
+    font-size: 1.5em;
+    color: white;
+}
+
+footer .left .socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+footer .left .socials a{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+footer .bottom{
+    background-color: darkviolet;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, .9);
+
+}
+
